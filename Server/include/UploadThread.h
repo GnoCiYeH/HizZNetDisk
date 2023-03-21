@@ -4,6 +4,7 @@
 #include"File.h"
 #include"SqlTool.h"
 
+//管理用户上传文件的数据队列以及对数据及时处理（数据的入队和处理分线程处理）
 class UploadThread
 {
     public:
